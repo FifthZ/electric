@@ -28,8 +28,8 @@
 
 
     <div class="col-lg-3 col-md-3 sidebar">
-        @include('topics._sidebar')
-    </div>
-</div>
+         @include('topics._sidebar')
+     </div>
+ </div>
 
 @endsection
