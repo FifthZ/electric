@@ -4,6 +4,8 @@
 
 @section('content')
 
+
+
 <div class="row">
     <div class="col-lg-9 col-md-9 topic-list">
 
@@ -24,12 +26,13 @@
                 {!! $topics->render() !!}
             </div>
         </div>
+        <div class="col-lg-3 col-md-3 sidebar">
+             @include('topics._sidebar')
+         </div>
     </div>
 
 
-    <div class="col-lg-3 col-md-3 sidebar">
-         @include('topics._sidebar')
-     </div>
+
  </div>
 
 @endsection
