@@ -9,7 +9,7 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
     <title>@yield('title', '工作票管理系统') - 电力公司工作票管理系统</title>
-
+    <meta name="description" content="@yield('description', '工作票系统')" />
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
      @yield('styles')
